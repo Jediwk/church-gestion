@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #000; padding: 5px; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Téléphone</th>
+            <th>Email</th>
+            <th>Adresse</th>
+            <th>Date de mariage</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Famille Doe</td>
+            <td>+237612345678</td>
+            <td>famille.doe@email.com</td>
+            <td>123 Rue Example</td>
+            <td>2020-01-01</td>
+            <td>Famille active</td>
+        </tr>
+        <tr>
+            <td>Famille Smith</td>
+            <td>+237687654321</td>
+            <td>famille.smith@email.com</td>
+            <td>456 Avenue Sample</td>
+            <td>2019-02-02</td>
+            <td>Nouvelle famille</td>
+        </tr>
+    </table>
+</body>
+</html>

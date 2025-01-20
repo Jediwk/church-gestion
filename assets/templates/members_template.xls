@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #000; padding: 5px; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Téléphone</th>
+            <th>Date de naissance</th>
+            <th>Genre</th>
+            <th>Statut matrimonial</th>
+            <th>Adresse</th>
+            <th>Date d'adhésion</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Doe</td>
+            <td>John</td>
+            <td>john.doe@email.com</td>
+            <td>+237612345678</td>
+            <td>1990-01-01</td>
+            <td>M</td>
+            <td>Marié(e)</td>
+            <td>123 Rue Example</td>
+            <td>2024-01-01</td>
+            <td>Membre actif</td>
+        </tr>
+        <tr>
+            <td>Doe</td>
+            <td>Jane</td>
+            <td>jane.doe@email.com</td>
+            <td>+237687654321</td>
+            <td>1992-02-02</td>
+            <td>F</td>
+            <td>Marié(e)</td>
+            <td>123 Rue Example</td>
+            <td>2024-01-01</td>
+            <td>Membre actif</td>
+        </tr>
+    </table>
+</body>
+</html>

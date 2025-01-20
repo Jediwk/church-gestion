@@ -1,0 +1,14 @@
+{
+  "name": "church-gestion-ui-tests",
+  "version": "1.0.0",
+  "description": "Tests d'interface utilisateur pour Church Gestion",
+  "scripts": {
+    "test:ui": "mocha tests/ui/test_interface.js --timeout 10000"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.0",
+    "lighthouse": "^11.0.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

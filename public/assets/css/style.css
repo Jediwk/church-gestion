@@ -1,0 +1,104 @@
+/* Style général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style de la page de connexion */
+.login-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des formulaires */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Style des boutons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Style des alertes */
+.alert {
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* Style des cartes */
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Styles pour l'arbre familial */
+.tree-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.Treant > .node {
+    transition: all 0.3s ease;
+}
+
+.Treant > .node:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.Treant .node p.node-name {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.Treant .node p.node-title {
+    font-size: 0.9em;
+}
+
+/* Styles spécifiques pour les types de nœuds */
+.Treant .node.root-node {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+}
+
+.Treant .node.family-card {
+    background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%);
+}
+
+.Treant .node.member-node.male {
+    background: linear-gradient(to right, #e3f2fd 0%, #ffffff 100%);
+}
+
+.Treant .node.member-node.female {
+    background: linear-gradient(to right, #fce4ec 0%, #ffffff 100%);
+}
+
+/* Animation des connecteurs */
+.Treant .connector {
+    transition: stroke 0.3s ease;
+}
+
+.Treant .connector:hover {
+    stroke: #0d6efd !important;
+}
