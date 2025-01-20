@@ -22,7 +22,7 @@ Une application web complète pour la gestion d'une église, développée avec P
 
 1. Clonez le dépôt :
 ```bash
-git clone https://github.com/votre-username/church-gestion.git
+git clone https://github.com/Jediwk/church-gestion.git
 cd church-gestion
 ```
 
